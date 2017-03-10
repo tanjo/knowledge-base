@@ -1,6 +1,8 @@
-# Github API
+# Github API - Get contents
 
-## Get contents
+[https://developer.github.com/v3/repos/contents/#get-contents](https://developer.github.com/v3/repos/contents/#get-contents)
+
+This method returns the contents of a file or directory in this repository.
 
 このメソッドはリポジトリ内のファイルやディレクトリの内容を返します。
 
@@ -8,19 +10,46 @@
 curl https://api.github.com/repos/:owner/:repo/contents/:path
 ```
 
-### 例. `tanjo/til` にある README.md の情報を取得する
+## 例. README.md of this repository
 
 ```sh
 curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-contents.md
 ```
 
-### Parameters
+## Parameters
 
-- ref - 対象コミット、ブランチ、タグ
+- ref - the name of commit / branch / tag.
 
-  `?ref=develop`
+```
+curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-contents.md?ref=develop
+```
 
-### 中身
+## Response
+
+### Directory
+
+```json
+[
+  {
+    "name": "github-api-get-contents.md",
+    "path": "Github/github-api-get-contents.md",
+    "sha": "8bbeafc5a5b4d5929e0ab39d45d5e1fafe2fa431",
+    "size": 1409,
+    "url": "https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-contents.md?ref=master",
+    "html_url": "https://github.com/tanjo/til/blob/master/Github/github-api-get-contents.md",
+    "git_url": "https://api.github.com/repos/tanjo/til/git/blobs/8bbeafc5a5b4d5929e0ab39d45d5e1fafe2fa431",
+    "download_url": "https://raw.githubusercontent.com/tanjo/til/master/Github/github-api-get-contents.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-contents.md?ref=master",
+      "git": "https://api.github.com/repos/tanjo/til/git/blobs/8bbeafc5a5b4d5929e0ab39d45d5e1fafe2fa431",
+      "html": "https://github.com/tanjo/til/blob/master/Github/github-api-get-contents.md"
+    }
+  }
+]
+```
+
+### File
 
 ```json
 
@@ -43,7 +72,18 @@ curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-conte
 }
 ```
 
-#### `type`
+### Wrong Request's Respnse
 
-- `dir` - ディレクトリ
-- `file` - ファイル
+```
+{
+	  "message": "No commit found for the ref develop",
+	    "documentation_url": "https://developer.github.com/v3/repos/contents/"
+}
+```
+
+## Response Parameters
+
+### type
+
+- `dir` - Directory
+- `file` - File
