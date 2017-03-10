@@ -1,0 +1,26 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned … https://tanjo.github.io/til",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanjo/til.git"
+  },
+  "author": "tanjo",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/tanjo/til/issues"
+  },
+  "homepage": "https://github.com/tanjo/til#readme",
+  "devDependencies": {
+    "coffee-script": "^1.12.4",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0"
+  }
+}
