@@ -4,8 +4,6 @@
 
 This method returns the contents of a file or directory in this repository.
 
-このメソッドはリポジトリ内のファイルやディレクトリの内容を返します。
-
 ```sh
 curl https://api.github.com/repos/:owner/:repo/contents/:path
 ```
