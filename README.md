@@ -9,3 +9,5 @@ Today I Learned … https://tanjo.github.io/til
 - [iOS](./iOS)
   - [iOS - デバイストークン](./iOS/device-token.md)
   - [プッシュ通知(APNS)](./iOS/push-notification.md)
+- [JavaScript](./JavaScript)
+  - [Promise](./JavaScript/promise.md)
