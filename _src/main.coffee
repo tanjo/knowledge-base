@@ -1,27 +1,14 @@
-class GithubNote
-  @MARKDOWN_CONTENT_404 = "# 404 Not Found"
-  @DEFAULT_PAGE = "README.md"
-  @BASE_URL = "https://api.github.com/"
-  @CONTENTS_PATH = "repos/{owner}/{repository}/contents{path}"
+Mokuji = require './mokuji.coffee'
+Github = require './github.coffee'
+Utility = require './utility.coffee'
 
-  constructor: (@owner, @repository) ->
-
-
-  @getUrlQuery = () ->
-    url = window.location.search
-    hash = url.slice(1).split '&'
-    queries = []
-    for i in [0...hash.length]
-      data = hash[i].split '='
-      queries.push data[0]
-      queries[data[0]] = data[1]
-    return queries
-
-  @getMarkdown = (filename, callback) ->
-
-
-  @get = (url, callback) ->
-    request = new XMLHttpRequest()
-    request.open 'get', url
-    request.onload = callback
-    request.send null
+window.onload = ->
+  Github.onload "tanjo", "til", Utility.getUrlQuery(), ->
+    mokuji = document.getElementById 'mokuji'
+    if mokuji?
+      Mokuji.run(
+        parseInt(mokuji.getAttribute('first')),
+        parseInt(mokuji.getAttribute('last'))
+      )
+    return
+  return
