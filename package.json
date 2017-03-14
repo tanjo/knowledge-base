@@ -2,9 +2,9 @@
   "name": "til",
   "version": "1.0.0",
   "description": "Today I Learned … https://tanjo.github.io/til",
-  "main": "index.js",
+  "main": "_src/index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "node ./_src/index.js"
   },
   "repository": {
     "type": "git",
