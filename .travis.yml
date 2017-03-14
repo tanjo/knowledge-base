@@ -9,11 +9,9 @@ after_success:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - git config --global user.email "tanjo@users.noreply.github.com"
   - git config --global user.name "tanjo"
-  - git clone git@github.com:tanjo/til.git
-  - cd til
   - git add --all
   - git commit -m "Update README.md by Travis CI"
   - git push origin master
 branches:
   only:
-    - master
+    - develop
