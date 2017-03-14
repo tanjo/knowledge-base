@@ -6,9 +6,6 @@ npm install
 gem install travis
 ```
 ## Contents
-- [README.md](./README.md)
-- [deploy_key.enc](./deploy_key.enc)
-- [package.json](./package.json)
 - Dialogue
   - [response.md](./Dialogue/response.md)
 - Github
@@ -29,4 +26,3 @@ gem install travis
 - iOS
   - [device-token.md](./iOS/device-token.md)
   - [push-notification.md](./iOS/push-notification.md)
-- node_modules
