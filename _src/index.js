@@ -19,7 +19,10 @@ var manageFiles = function(files, path, prefix) {
     prefix = '';
   }
   files.filter(function(file) {
-    return fs.statSync(path + "/" + file).isFile() && !/^\./.test(file);
+    return fs.statSync(path + "/" + file).isFile() &&
+        !/^\./.test(file) &&
+        !/package\.json/.test(file) &&
+        !/README\.md/.test(file);
   }).forEach(function(file) {
     result += prefix + '- [' + file + '](' + path + '/' + file + ')' + '\n';
   });
@@ -32,7 +35,9 @@ var manageDirs = function(dirs, path, prefix) {
     prefix = '';
   }
   dirs.filter(function(dir) {
-    return fs.statSync(path + "/" + dir).isDirectory() && !/^\./.test(dir) && !/^_/.test(dir);
+    return fs.statSync(path + "/" + dir).isDirectory() &&
+        !/^\./.test(dir) &&
+        !/^_/.test(dir);
   }).forEach(function(dir) {
     result += prefix + '- ' + dir + '\n' + explorer(path + '/' + dir, "  " + prefix);
   });
