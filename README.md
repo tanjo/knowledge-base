@@ -18,7 +18,7 @@ gem install travis
 - Github
   - [github-api-get-contents.md](./Github/github-api-get-contents.md)
 - JavaScript
-  - [object-assign](./JavaScript/object-assign)
+  - [object-assign.md](./JavaScript/object-assign.md)
   - [object-keys.md](./JavaScript/object-keys.md)
   - [promise.md](./JavaScript/promise.md)
 - Logres
