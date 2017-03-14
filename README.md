@@ -18,6 +18,8 @@ gem install travis
 - Github
   - [github-api-get-contents.md](./Github/github-api-get-contents.md)
 - JavaScript
+  - [array-isarray.md](./JavaScript/array-isarray.md)
+  - [array-prototype-shift.md](./JavaScript/array-prototype-shift.md)
   - [object-assign.md](./JavaScript/object-assign.md)
   - [object-keys.md](./JavaScript/object-keys.md)
   - [promise.md](./JavaScript/promise.md)
