@@ -1,10 +1,16 @@
 # til
+
+[![Build Status](https://travis-ci.org/tanjo/til.svg?branch=master)](https://travis-ci.org/tanjo/til)
+
 Today I Learned … https://tanjo.github.io/til
+
 ## Setup
+
 ```sh
 npm install
 gem install travis
 ```
+
 ## Contents
 
 - Dialogue
