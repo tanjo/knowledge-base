@@ -6,10 +6,12 @@ var main = function(argc, argv) {
       throw error;
     }
     var readme = data.replace(/## Contents\n[\s\S]*/, "## Contents\n\n" + explorer('.'));
-    console.log('Finish!');
-    console.log('-------------------');
     console.log(readme);
-    console.log('-------------------');
+    fs.writeFile('./README.md', readme, function(error) {
+      if (error) {
+        throw error;
+      }
+    });
   });
 };
 
