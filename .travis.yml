@@ -2,9 +2,7 @@ language: node_js
 node_js:
   - "7.4.0"
 script:
-  - echo "--------------------"
-  - npm start
-  - echo "--------------------"
+  npm start
 branches:
   only:
     - master
