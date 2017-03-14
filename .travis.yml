@@ -3,15 +3,6 @@ node_js:
   - "7.4.0"
 script:
   npm start
-after_success:
-  - openssl aes-256-cbc -K $encrypted_6ce14e01e6f5_key -iv $encrypted_6ce14e01e6f5_iv -in deploy_key.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
-  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-  - git config --global user.email "tanjo@users.noreply.github.com"
-  - git config --global user.name "tanjo"
-  - git add --all
-  - git commit -m "Update README.md by Travis CI"
-  - git push origin master
 branches:
   only:
-    - develop
+    - master
