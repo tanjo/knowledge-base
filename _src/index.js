@@ -37,7 +37,8 @@ var manageDirs = function(dirs, path, prefix) {
   dirs.filter(function(dir) {
     return fs.statSync(path + "/" + dir).isDirectory() &&
         !/^\./.test(dir) &&
-        !/^_/.test(dir);
+        !/^_/.test(dir) &&
+        !/node_modules/.test(dir);
   }).forEach(function(dir) {
     result += prefix + '- ' + dir + '\n' + explorer(path + '/' + dir, "  " + prefix);
   });
