@@ -15,6 +15,8 @@ gem install travis
 
 - Dialogue
   - [response.md](./Dialogue/response.md)
+- Git
+  - [config-core-ignorecase.md](./Git/config-core-ignorecase.md)
 - Github
   - [github-api-get-contents.md](./Github/github-api-get-contents.md)
 - JavaScript
