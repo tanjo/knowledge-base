@@ -50,7 +50,7 @@ curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-conte
 ### File
 
 ```json
-
+{
   "name": "README.md",
   "path": "README.md",
   "sha": "8c3559c6a14b2982a722202cdfc4ccc3306b184d",
