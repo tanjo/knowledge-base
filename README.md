@@ -15,6 +15,8 @@ gem install travis
 
 - Affiliate
   - [knowledge.md](./Affiliate/knowledge.md)
+- Android
+  - [create-library.md](./Android/create-library.md)
 - Dialogue
   - [response.md](./Dialogue/response.md)
 - FX
