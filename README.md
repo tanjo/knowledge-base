@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/tanjo/til.svg?branch=master)](https://travis-ci.org/tanjo/til)
 
 Today I Learned … https://tanjo.github.io/til
-
 ## Setup
 
 ```sh
@@ -15,6 +14,8 @@ gem install travis
 
 - Dialogue
   - [response.md](./Dialogue/response.md)
+- FX
+  - [stop-loss-order.md](./FX/stop-loss-order.md)
 - Git
   - [config-core-ignorecase.md](./Git/config-core-ignorecase.md)
 - Github
@@ -39,3 +40,4 @@ gem install travis
 - iOS
   - [device-token.md](./iOS/device-token.md)
   - [push-notification.md](./iOS/push-notification.md)
+  
