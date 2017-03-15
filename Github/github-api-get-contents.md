@@ -18,7 +18,7 @@ curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-conte
 
 - ref - the name of commit / branch / tag.
 
-```
+```sh
 curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-contents.md?ref=develop
 ```
 
@@ -72,7 +72,7 @@ curl https://api.github.com/repos/tanjo/til/contents/Github/github-api-get-conte
 
 ### Wrong Request's Respnse
 
-```
+```json
 {
 	  "message": "No commit found for the ref develop",
 	    "documentation_url": "https://developer.github.com/v3/repos/contents/"
