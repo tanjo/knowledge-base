@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/tanjo/til.svg?branch=master)](https://travis-ci.org/tanjo/til)
 
-Today I Learned … https://tanjo.github.io/til
+Today I Learned …
+
 ## Setup
 
 ```sh
