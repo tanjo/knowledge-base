@@ -1,0 +1,12 @@
+# Travis CLI - init
+
+`.travis.yml` が存在しないリポジトリのディレクトリで
+
+```
+travis init
+```
+
+## 注意点
+
+- 言語を設定するときに Android ではなく Java と入力する必要があった
+  - 結局 Web の情報を参考に構築した
