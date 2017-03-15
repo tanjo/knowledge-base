@@ -12,6 +12,8 @@ gem install travis
 
 ## Contents
 
+- Affiliate
+  - [knowledge.md](./Affiliate/knowledge.md)
 - Dialogue
   - [response.md](./Dialogue/response.md)
 - FX
