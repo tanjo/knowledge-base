@@ -1,4 +1,4 @@
-# JavaScript - Array.isArray
+# Array.isArray
 
 [Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 

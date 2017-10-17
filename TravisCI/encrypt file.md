@@ -1,4 +1,4 @@
-# Travis CI - encrypt file
+# encrypt file
 
 ```
 travis encrypt-file deploy_key --add

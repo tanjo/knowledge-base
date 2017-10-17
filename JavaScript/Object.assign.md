@@ -1,4 +1,4 @@
-# JavaScript - Object.assign
+# Object.assign
 
 [Object.assign() - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 

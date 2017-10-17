@@ -13,36 +13,40 @@ gem install travis
 
 ## Contents
 
-- Affiliate
-  - [knowledge.md](./Affiliate/knowledge.md)
+- [アフィリエイト](./アフィリエイト.md)
 - Android
-  - [create-library.md](./Android/create-library.md)
-- Dialogue
-  - [response.md](./Dialogue/response.md)
+  - [ライブラリの作り方](./Android/ライブラリの作り方.md)
 - FX
-  - [stop-loss-order.md](./FX/stop-loss-order.md)
+  - [逆指値注文](./FX/逆指値注文.md)
 - Git
-  - [config-core-ignorecase.md](./Git/config-core-ignorecase.md)
+  - [gitignore](./Git/gitignore.md)
+  - [大文字小文字を厳格化](./Git/大文字小文字を厳格化.md)
 - Github
-  - [github-api-get-contents.md](./Github/github-api-get-contents.md)
+  - API
+    - [Get contents](./Github/API/Get contents.md)
 - JavaScript
-  - [array-isarray.md](./JavaScript/array-isarray.md)
-  - [array-prototype-shift.md](./JavaScript/array-prototype-shift.md)
-  - [object-assign.md](./JavaScript/object-assign.md)
-  - [object-keys.md](./JavaScript/object-keys.md)
-  - [promise.md](./JavaScript/promise.md)
-- Logres
-  - sp
-    - [weapon-reinforcement-material.md](./Logres/sp/weapon-reinforcement-material.md)
+  - [Array.isArray](./JavaScript/Array.isArray.md)
+  - [Array.prototype.shift](./JavaScript/Array.prototype.shift.md)
+  - [Object.assign](./JavaScript/Object.assign.md)
+  - [Object.keys](./JavaScript/Object.keys.md)
+  - [Promise](./JavaScript/Promise.md)
 - Node.js
-  - [fs.md](./Node.js/fs.md)
+  - [fs](./Node.js/fs.md)
+- README
+  - [作り方](./README/作り方.md)
 - SSH
-  - [create.md](./SSH/create.md)
+  - [作り方](./SSH/作り方.md)
 - TravisCI
-  - [branches.md](./TravisCI/branches.md)
-  - [encrypt-file.md](./TravisCI/encrypt-file.md)
-  - [install.md](./TravisCI/install.md)
+  - [CLIのインストール方法](./TravisCI/CLIのインストール方法.md)
+  - [encrypt file](./TravisCI/encrypt file.md)
+  - [lint](./TravisCI/lint.md)
+  - [初期化](./TravisCI/初期化.md)
+  - [特定ブランチだけ実行](./TravisCI/特定ブランチだけ実行.md)
 - iOS
-  - [device-token.md](./iOS/device-token.md)
-  - [push-notification.md](./iOS/push-notification.md)
-  
+  - [デバイストークン](./iOS/デバイストークン.md)
+  - [プッシュ通知](./iOS/プッシュ通知.md)
+- 剣と魔法のログレス
+  - [武器強化素材について](./剣と魔法のログレス/武器強化素材について.md)
+- 対話
+  - [返答のポイント](./対話/返答のポイント.md)
+

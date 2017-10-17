@@ -1,4 +1,4 @@
-# Github API - Get contents
+# Get contents
 
 [https://developer.github.com/v3/repos/contents/#get-contents](https://developer.github.com/v3/repos/contents/#get-contents)
 

@@ -1,4 +1,4 @@
-# JavaScript - Object.keys
+# Object.keys
 
 [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 
