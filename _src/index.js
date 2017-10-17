@@ -27,7 +27,7 @@ var manageFiles = function(files, path, prefix) {
         !/package\.json/.test(file) &&
         !/README\.md/.test(file);
   }).forEach(function(file) {
-    result += prefix + '- [' + file.replace(".md", "") + '](' + path + '/' + file + ')' + '\n';
+    result += prefix + '- [' + file.replace(".md", "") + '](' + path + '/' + file.replace(" ", "%20") + ')' + '\n';
   });
   return result;
 };

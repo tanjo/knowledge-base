@@ -23,7 +23,7 @@ gem install travis
   - [大文字小文字を厳格化](./Git/大文字小文字を厳格化.md)
 - Github
   - API
-    - [Get contents](./Github/API/Get contents.md)
+    - [Get contents](./Github/API/Get%20contents.md)
 - JavaScript
   - [Array.isArray](./JavaScript/Array.isArray.md)
   - [Array.prototype.shift](./JavaScript/Array.prototype.shift.md)
@@ -38,7 +38,7 @@ gem install travis
   - [作り方](./SSH/作り方.md)
 - TravisCI
   - [CLIのインストール方法](./TravisCI/CLIのインストール方法.md)
-  - [encrypt file](./TravisCI/encrypt file.md)
+  - [encrypt file](./TravisCI/encrypt%20file.md)
   - [lint](./TravisCI/lint.md)
   - [初期化](./TravisCI/初期化.md)
   - [特定ブランチだけ実行](./TravisCI/特定ブランチだけ実行.md)
