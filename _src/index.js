@@ -5,7 +5,7 @@ var main = function(argc, argv) {
     if (error) {
       throw error;
     }
-    var readme = data.replace(/## Contents\n[\s\S]*/, "## Contents\n\n" + explorer('.'));
+    var readme = data.replace(/## Contents\n([\s\S]*?)(?=##)|## Contents\n([\s\S]*)/, "## Contents\n\n" + explorer('.') + "\n");
     console.log(readme);
     fs.writeFile('./README.md', readme, function(error) {
       if (error) {
@@ -23,10 +23,11 @@ var manageFiles = function(files, path, prefix) {
   files.filter(function(file) {
     return fs.statSync(path + "/" + file).isFile() &&
         !/^\./.test(file) &&
+        !/package-lock.json/.test(file) &&
         !/package\.json/.test(file) &&
         !/README\.md/.test(file);
   }).forEach(function(file) {
-    result += prefix + '- [' + file + '](' + path + '/' + file + ')' + '\n';
+    result += prefix + '- [' + file.replace(".md", "") + '](' + path + '/' + file + ')' + '\n';
   });
   return result;
 };
