@@ -1,22 +1,18 @@
-# til
-
-[![Build Status](https://travis-ci.org/tanjo/til.svg?branch=master)](https://travis-ci.org/tanjo/til)
-
+# knowledge-base
+[![Build Status](https://travis-ci.org/tanjo/til.svg?branch=master)](https://travis-ci.org/tanjo/knowledge-base)
 Today I Learned …
-
 ## Setup
-
 ```sh
 npm install
 gem install travis
 ```
-
 ## Contents
-
 - [アフィリエイト](./アフィリエイト.md)
 - Android
   - [ライセンス](./Android/ライセンス.md)
-  - [ライブラリの作り方](./Android/ライブラリの作り方.md)
+  - [ライブラリの作り方](./Android/ライブラリの作り方.md)
+- Chrome
+  - [検索バー](./Chrome/検索バー.md)
 - FX
   - [逆指値注文](./FX/逆指値注文.md)
 - Git
@@ -30,7 +26,7 @@ gem install travis
   - [Array.prototype.shift](./JavaScript/Array.prototype.shift.md)
   - [Object.assign](./JavaScript/Object.assign.md)
   - [Object.keys](./JavaScript/Object.keys.md)
-  - [Promise](./JavaScript/Promise.md)
+  - [promise](./JavaScript/promise.md)
 - Node.js
   - [fs](./Node.js/fs.md)
 - README
@@ -42,14 +38,14 @@ gem install travis
   - [encrypt file](./TravisCI/encrypt%20file.md)
   - [lint](./TravisCI/lint.md)
   - [初期化](./TravisCI/初期化.md)
-  - [特定ブランチだけ実行](./TravisCI/特定ブランチだけ実行.md)
+  - [特定ブランチだけ実行](./TravisCI/特定ブランチだけ実行.md)
 - iOS
-  - [デバイストークン](./iOS/デバイストークン.md)
-  - [プッシュ通知](./iOS/プッシュ通知.md)
+  - [シミュレータ](./iOS/シミュレータ.md)
+  - [デバイストークン](./iOS/デバイストークン.md)
+  - [プッシュ通知](./iOS/プッシュ通知.md)
 - radiko.jp
   - [聞いてる番組一覧](./radiko.jp/聞いてる番組一覧.md)
-- 剣と魔法のログレス
-  - [武器強化素材について](./剣と魔法のログレス/武器強化素材について.md)
+- 剣と魔法のログレス
+  - [武器強化素材について](./剣と魔法のログレス/武器強化素材について.md)
 - 対話
-  - [返答のポイント](./対話/返答のポイント.md)
-
+  - [返答のポイント](./対話/返答のポイント.md)
