@@ -1,12 +1,17 @@
 # knowledge-base
 [![Build Status](https://travis-ci.org/tanjo/knowledge-base.svg?branch=master)](https://travis-ci.org/tanjo/knowledge-base)
+
 Today I Learned …
+
 ## Setup
+
 ```sh
 npm install
 gem install travis
 ```
+
 ## Contents
+
 - [アフィリエイト](./アフィリエイト.md)
 - Android
   - [ライセンス](./Android/ライセンス.md)
