@@ -12,6 +12,7 @@ gem install travis
 
 ## Contents
 
+- [Camera](Camera.md)
 - [アフィリエイト](アフィリエイト.md)
 - Android
   - [ライセンス](Android/ライセンス.md)
