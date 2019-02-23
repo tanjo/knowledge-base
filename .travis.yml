@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-  - "7.4.0"
+  - 'stable'
+install:
+  - npm install -g tanjo/mokudi
 script:
-  - npx -p tanjo/mokudi mokudi ./README.md "# Contents"
-  - cat README .md
+  - mokudi ./README.md "# Contents"
+  - cat README.md
 branches:
   only:
     - master
