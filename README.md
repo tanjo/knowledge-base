@@ -4,6 +4,7 @@
 Today I Learned …
 
 ## Contents
+
 - [Camera](Camera.md)
 - [アフィリエイト](アフィリエイト.md)
 - [サーバー](サーバー.md)
@@ -74,7 +75,7 @@ Today I Learned …
   - Windows
     - [Settings](zsh/Windows/Settings.md)
 - おみやげ
-  - [名古屋](おみやげ/名古���.md)
+  - [名古屋](おみやげ/名古屋.md)
   - [大阪](おみやげ/大阪.md)
   - [岐阜](おみやげ/岐阜.md)
   - [東京](おみやげ/東京.md)
