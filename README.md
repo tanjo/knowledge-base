@@ -32,6 +32,7 @@ Today I Learned …
 - Git
   - [gitignore](Git/gitignore.md)
   - [大文字小文字を厳格化](Git/大文字小文字を厳格化.md)
+  - [日本語文字化けを解消](Git/日本語文字化けを解消.md)
 - Github
   - API
     - [Get contents](Github/API/Get%20contents.md)
