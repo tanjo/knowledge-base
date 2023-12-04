@@ -1,5 +1,5 @@
 # knowledge-base
-[![Build Status](https://travis-ci.org/tanjo/knowledge-base.svg?branch=master)](https://travis-ci.org/tanjo/knowledge-base)
+[![Mokudi](https://github.com/tanjo/knowledge-base/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/tanjo/knowledge-base/actions/workflows/master.yml)
 
 Today I Learned …
 
@@ -89,6 +89,8 @@ Today I Learned …
 - サブウェイ
   - [dポイント](サブウェイ/dポイント.md)
   - [野菜上限](サブウェイ/野菜上限.md)
+- スマートフォン
+  - [機種変更手続き](スマートフォン/機種変更手続き.md)
 - ビックカメラ.com
   - [ポイントモール](ビックカメラ.com/ポイントモール.md)
 - ポケモン
