@@ -33,6 +33,7 @@ Today I Learned …
   - [gitignore](Git/gitignore.md)
   - [大文字小文字を厳格化](Git/大文字小文字を厳格化.md)
   - [日本語文字化けを解消](Git/日本語文字化けを解消.md)
+  - [特定のファイルを復元](Git/特定のファイルを復元.md)
 - Github
   - API
     - [Get contents](Github/API/Get%20contents.md)
@@ -44,8 +45,10 @@ Today I Learned …
 - JavaScript
   - [Array.isArray](JavaScript/Array.isArray.md)
   - [Array.prototype.shift](JavaScript/Array.prototype.shift.md)
+  - [Date.prototype.toLocaleString](JavaScript/Date.prototype.toLocaleString.md)
   - [Object.assign](JavaScript/Object.assign.md)
   - [Object.keys](JavaScript/Object.keys.md)
+  - [String.instanceof](JavaScript/String.instanceof.md)
   - [String.prototype.normalize](JavaScript/String.prototype.normalize.md)
   - [promise](JavaScript/promise.md)
 - Node.js
@@ -55,6 +58,8 @@ Today I Learned …
   - [作り方](README/作り方.md)
 - SSH
   - [作り方](SSH/作り方.md)
+- Slack
+  - [検索](Slack/検索.md)
 - Suica
   - [VIEW Suica](Suica/VIEW%20Suica.md)
 - TravisCI
@@ -65,6 +70,8 @@ Today I Learned …
   - [特定ブランチだけ実行](TravisCI/特定ブランチだけ実行.md)
 - WAON
   - [キャンペーン](WAON/キャンペーン.md)
+- crypto
+  - [平文の暗号化復号化](crypto/平文の暗号化復号化.md)
 - docomo
   - [dPOINT](docomo/dPOINT.md)
   - [各種明細](docomo/各種明細.md)
@@ -93,6 +100,8 @@ Today I Learned …
   - [機種変更手続き](スマートフォン/機種変更手続き.md)
 - ビックカメラ.com
   - [ポイントモール](ビックカメラ.com/ポイントモール.md)
+- ファイル
+  - [同一性](ファイル/同一性.md)
 - ポケモン
   - [Labo](ポケモン/Labo.md)
 - マルエツプチ
