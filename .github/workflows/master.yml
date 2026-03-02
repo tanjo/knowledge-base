@@ -9,13 +9,26 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-      - name: Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v5
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
-      - run: npm install -g tanjo/mokudi
-      - run: mokudi ./README.md "# Contents"
-      - run: cat README.md
+          node-version: '25'
+      - name: Install and Run Mokudi
+        run: |
+          npm install -g tanjo/mokudi
+          mokudi ./README.md "# Contents"
+          cat README.md
+      - name: Check for changes
+        id: mokudi
+        run: |
+          echo "changed=$(git status --porcelain)" >> "$GITHUB_OUTPUT"
+      - name: Commit and Push changes
+        if: steps.mokudi.outputs.changed != ''
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Update README.md with Mokudi"
+          git push origin HEAD:${{ github.head_ref }}
