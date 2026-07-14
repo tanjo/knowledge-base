@@ -32,6 +32,7 @@ Today I Learned …
   - [逆指値注文](FX/逆指値注文.md)
 - Git
   - [gitignore](Git/gitignore.md)
+  - [it pull 実行時の「divergent branches」エラー対処法](Git/it%20pull%20実行時の「divergent%20branches」エラー対処法.md)
   - [大文字小文字を厳格化](Git/大文字小文字を厳格化.md)
   - [日本語文字化けを解消](Git/日本語文字化けを解消.md)
   - [特定のファイルを復元](Git/特定のファイルを復元.md)
