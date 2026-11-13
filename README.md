@@ -77,6 +77,8 @@ Today I Learned …
 - docomo
   - [dPOINT](docomo/dPOINT.md)
   - [各種明細](docomo/各種明細.md)
+- macos
+  - [強制終了](macos/強制終了.md)
 - radiko.jp
   - [聞いてる番組一覧](radiko.jp/聞いてる番組一覧.md)
 - zsh
